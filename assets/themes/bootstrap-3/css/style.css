@@ -14,15 +14,67 @@
   float: right; }*/
 
 /* Jekyll Bootstrap Colors */
+
+body, html {
+  font-family: Avenir;
+  padding: 0px;
+}
+
 h1, h2, h3, h4 {
-  color: #f22430;
+  color: #aaa;
+  font-family: Avenir;
 }
+
 #footer {
-  background-color: #fdcd60;
+  background-color: #FFF;
+  text-align: center;
+}
+
+hr {
+  margin: 0px;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.navbar-default {
+  box-shadow: none;
+  background-image: none;
+  background-color: #f5fafd;
+  border-color: #FFF;
+  border: none;
+}
+
+.navbar-brand {
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 1.8em;
+}
+
+.navbar-right {
+  text-align: right;
+  margin-right: -30px;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  box-shadow: none;
+  background-image: none;
+  background-color: #FFF;
+  border-bottom: 4px #EEE solid;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  box-shadow: none;
+  background-image: none;
+  background-color: #FFF;
+  border-bottom: 4px #EEE solid;
 }
 
 
-
+.page-header {
+  border-bottom: none;
+}
 /* posts index */
 .post > h3.title {
   position: relative;
@@ -77,3 +129,7 @@ h1, h2, h3, h4 {
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+  li {
+    list-style: none;
+  }
