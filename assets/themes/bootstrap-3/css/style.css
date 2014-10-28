@@ -26,12 +26,19 @@ h1, h2, h3, h4 {
 }
 
 #footer {
-  background-color: #FFF;
-  text-align: center;
+  background-color: #f5fafd;
+  text-align: right;
+  color: #ABABAB;
 }
 
 hr {
   margin: 0px;
+}
+
+.navbar-wrapper {
+  width: 100%;
+  background-color: #f5fafd;
+  height: 54px;
 }
 
 .navbar {
@@ -41,9 +48,9 @@ hr {
 .navbar-default {
   box-shadow: none;
   background-image: none;
-  background-color: #f5fafd;
   border-color: #FFF;
   border: none;
+  background-color: #f5fafd;
 }
 
 .navbar-brand {
@@ -60,14 +67,15 @@ hr {
 .navbar-default .navbar-nav>.active>a {
   box-shadow: none;
   background-image: none;
-  background-color: #FFF;
+  background-color: #f5fafd;
   border-bottom: 4px #EEE solid;
+  color: #777;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
   box-shadow: none;
   background-image: none;
-  background-color: #FFF;
+  background-color: #f5fafd;
   border-bottom: 4px #EEE solid;
 }
 
